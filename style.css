@@ -1,0 +1,149 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  max-width: 1920px;
+}
+
+.atf_image{
+  width: 1920px;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 120px;
+}
+
+header{
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  right: 0px;
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  width: 1920px;
+  align-items: center;
+}
+
+header a{
+  padding-right: 32px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  flex-direction: row;
+}
+
+.logo{
+  width: 64px;
+  height: 64px;
+  padding-left: 200px;
+}
+
+.phone_number{
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+
+.phone_logo{
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+}
+
+.phone_button{
+  background-color: #9F0908;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+
+.top_menu{
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+  align-items: center;
+}
+
+.top_container{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 60vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 96px !important;
+  font-weight: bold !important;
+  padding: 0px;
+  max-width: 1920px;
+}
+
+h1{
+  margin: 0px;
+}
+
+#top_paragraph{
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.order-headline {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  color: #9F0908;
+  margin-bottom: 64px;
+  font-weight: bold;
+}
+
+.how_to_order {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.order-step {
+  text-align: center;
+}
+
+.how_to_order img {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 16px;
+}
+
+.how_to_order_text {
+  font-size: 56px;
+  font-family: "Economica", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  margin-top: 0px;
+}
+
+#menu_background{
+  width: 1920px;
+}
+
+.menu_dish{
+  width: 352px;
+  height: 352px;
+  position: absolute;
+}
