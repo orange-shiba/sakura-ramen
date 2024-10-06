@@ -1,21 +1,17 @@
-html{
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
-body{
-  margin: 0px;
+body {
   font-family: "Raleway", sans-serif;
-  max-width: 1920px;
 }
 
-.atf_image{
-  width: 1920px;
-  height: 100vh;
-  object-fit: cover;
-  margin-bottom: 120px;
-}
-
-header{
+header {
   position: absolute;
   top: 32px;
   left: 0px;
@@ -23,38 +19,40 @@ header{
   height: 112px;
   display: flex;
   justify-content: space-between;
-  width: 1920px;
   align-items: center;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
-header a{
-  padding-right: 32px;
+header a {
+  margin-right: 32px;
   font-size: 24px;
   color: white;
   text-decoration: none;
   flex-direction: row;
 }
 
-.logo{
+.logo {
   width: 64px;
   height: 64px;
   padding-left: 200px;
 }
 
-.phone_number{
+.phone_number {
   font-family: "Open Sans", sans-serif;
   padding: 0px;
   padding-right: 5px;
+  margin-right: 0px;
 }
 
 
-.phone_logo{
+.phone_logo {
   width: 24px;
   height: 24px;
   padding: 5px;
 }
 
-.phone_button{
+.phone_button {
   background-color: #9F0908;
   border-radius: 10px;
   border: 2px solid #ffffff;
@@ -64,18 +62,20 @@ header a{
   flex-direction: row;
   justify-content: space-between;
   padding: 5px;
-
 }
 
-.top_menu{
+.phone_button:hover {
+  background-color: #c70b0b;
+}
+
+.top_menu {
   display: flex;
   flex-direction: row;
   margin-right: 150px;
   align-items: center;
 }
 
-.top_container{
-  position: absolute;
+.top_container {
   top: 0px;
   right: 0px;
   left: 0px;
@@ -89,14 +89,14 @@ header a{
   font-size: 96px !important;
   font-weight: bold !important;
   padding: 0px;
-  max-width: 1920px;
+  background-image: url(img/atf/hero_bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 120px;
+  height: 100vh;
 }
 
-h1{
-  margin: 0px;
-}
-
-#top_paragraph{
+#top_paragraph {
   font-size: 40px;
   font-weight: normal;
   margin-top: 0px;
@@ -109,6 +109,7 @@ h1{
   color: #9F0908;
   margin-bottom: 64px;
   font-weight: bold;
+  margin-top: 120px;
 }
 
 .how_to_order {
@@ -117,6 +118,8 @@ h1{
   flex-direction: row;
   align-items: center;
   margin-bottom: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .order-step {
@@ -138,12 +141,110 @@ h1{
   margin-top: 0px;
 }
 
-#menu_background{
-  width: 1920px;
+
+.our_menu {
+  background-image: url(img/our_menu/background/section_our_menu_bg.jpg);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
+  background-size: cover;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #675E54;
 }
 
-.menu_dish{
+.our_menu h2{
+  color: #9F0908;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.our_menu img{
   width: 352px;
   height: 352px;
-  position: absolute;
+}
+
+.our_menu p{
+  font-size: 56px;
+  font-family: "Economica", system-ui;
+  font-weight: bold;
+  color: black;
+}
+
+.menu_dish_left img{
+  margin-right: 80px;
+}
+
+.menu_dish_left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu_dish_right {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.menu_dish_right img{
+  margin-left: 80px;
+}
+
+.menu_price{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 40%;
+}
+
+table {
+  border-spacing: 8px;
+}
+
+.menu_cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.find_us h2{
+  color: #9F0908;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 64px;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+
+footer {
+  background-color: black;
+  padding-left: 160px;
+  padding-right: 160px;
+  height: 144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
