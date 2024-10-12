@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="functions.js"></script>
   <title>Sakura Ramen</title>
 </head>
 <body>
@@ -29,6 +31,19 @@
         <img src="img/header/phone.svg" alt="phone_number" class="phone_logo">
         <a href="tel:017654564534" class="phone_number">0176 54564534</a>
       </div>
+    </div>
+    <div class="topnav">
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#menu">MENU</a>
+        <a href="#location">LOCATIONS</a>
+        <a href="impress.html">ABOUT</a>
+        <a href="tel:017654564534">ORDER NOW!</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </a>
     </div>
   </header>
 
@@ -72,7 +87,7 @@
       </div>
       </div>
 
-      <div class="menu_dish_right">
+      <div class="menu_dish_right menu_dish_mobile">
         <img src="img/our_menu/dishes/R2.png" alt="Spicy_Miso_Ramen" class="menu_img">
         <div class="menu_price">
           <p>Spicy Miso Ramen</p>
@@ -127,9 +142,9 @@
 
   <footer>
     <div>
-    <img src="img/footer/sakura_ramen_logo_and_text.svg" alt="sakura_logo_name">
+    <img src="img/footer/sakura_ramen_logo_and_text.svg" alt="sakura_logo_name" id="sakura_logo_footer">
     </div>
-    <div>
+    <div class="social_logo_footer">
       <img src="img/footer/tripadvisor_logo.svg" alt="tripadvisor_logo">
       <img src="img/footer/facebook_logo.svg" alt="facebook_logo">
       <img src="img/footer/instagram_logo.svg" alt="instagram_logo">
